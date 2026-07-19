@@ -2,13 +2,6 @@ import { useState } from 'react';
 import { TextField } from '../TextField';
 import { Movie } from '../../types/Movie';
 
-interface FormErrors {
-  title?: string;
-  imgUrl?: string;
-  imdbUrl?: string;
-  imdbId?: string;
-}
-
 interface NewMovieProps {
   onAdd: (movie: Movie) => void;
 }
